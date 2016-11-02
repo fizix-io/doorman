@@ -1,0 +1,14 @@
+{
+  "name": "Doorman",
+  "short_name": "Doorman",
+  "icons": [{
+        "src": "/images/fizix.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#00AFB5",
+  "theme_color": "#00AFB5"
+}

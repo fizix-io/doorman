@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "Air Horner",
+  "launch_path": "/index.html",
+  "description": "Open Fizix's door",
+  "icons": {
+    "128": "/images/fizix.png"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "fr",
+  "permissions": {
+  },
+  "locales": {
+    "fr": {
+      "name": "Doorman",
+      "description": "Open the foor @ Fizix"
+    }
+  }
+}
