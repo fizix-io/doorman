@@ -8,6 +8,8 @@ process.on('SIGINT', function () {
 
 const app = express();
 
+app.use(express.static('../client/build'));
+
 app.post('/open', function (req, res) {
   relay.writeSync(1);
   setTimeout(() => relay.writeSync(0), 1000);
