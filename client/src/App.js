@@ -32,8 +32,12 @@ class App extends Component {
   }
 
   openDoor = () => {
-    this.setState({ ...this.state, active: true })
-    // fetch('https://google.com');
+    this.setState({ ...this.state, active: true });
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'http://192.168.1.26/open', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.send('');
   }
 
   stop = () => {
