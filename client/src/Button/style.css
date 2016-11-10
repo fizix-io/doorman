@@ -1,0 +1,16 @@
+
+.Button {
+  height: 70vmin;
+  width: 80vmin;
+}
+
+.Button__Group--down,
+.Button__Group--off,
+.Button__Group--on {
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.Button--on .Button__Group--on { opacity: 1;}
+.Button--off .Button__Group--off { opacity: 1;}
+.Button--down .Button__Group--down { opacity: 1;}
