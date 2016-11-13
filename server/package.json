@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fizix-io/doorman#readme",
   "dependencies": {
+    "basic-auth": "^1.0.4",
     "express": "^4.14.0",
     "onoff": "^1.1.1"
   }
