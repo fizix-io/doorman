@@ -1,8 +1,6 @@
 const express = require('express');
 const Gpio = require('onoff').Gpio;
-const relay = new Gpio(17, 'out');
-
-relay.writeSync(1);
+const relay = new Gpio(17, 'high');
 
 const app = express();
 
