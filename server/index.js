@@ -4,7 +4,7 @@ const relay = new Gpio(17, 'high');
 
 const app = express();
 
-app.use(express.static('../client/build'));
+app.use(express.static(`${__dirname}/../client/build`));
 
 app.post('/open', function (req, res) {
   relay.writeSync(0);
